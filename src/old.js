@@ -1,7 +1,7 @@
-export function multi(a,b) {
-    return a*b;
-}
-export const multi2 = (a,b) => a * b;
+// export function multi(a,b) {
+//     return a*b;
+// }
+// export const multi2 = (a,b) => a * b;
 // Написать функцию, которой передаем, имя, фамилия и возраст, и получаем строку
 // "Привет Иван Петров с возрастом 17 лет" (только здесь данные, которые были переданы в функцию)
 // function z2(name, surname, age) {
@@ -96,4 +96,5 @@ export const multi2 = (a,b) => a * b;
 //     return currArr;
 // }
 // //test
+
 
