@@ -6,7 +6,7 @@ export function z41(arr) {
     for (let value of arr) {
         sum += value;
     }
-    return  Number(sum) / arr.length;
+    return Number(sum) / arr.length;
 }
 
 export const z42 = arr => arr.reduce((value, current) => (value + current)) / arr.length;
