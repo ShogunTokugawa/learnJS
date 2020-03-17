@@ -1,6 +1,5 @@
 import {
-    multi,
-    multi2
-} from "./old";
-console.log(multi(1,2));
-console.log(multi2(1,2));
+    z51
+} from "./lesons/arrays/task5";
+let arr = [1,2,3,4,5];
+console.log(z51(arr));
