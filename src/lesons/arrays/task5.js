@@ -5,7 +5,7 @@ export function z51(arr) {
     let arrR = arr.splice(0,1);
     // return arrR;
     // return arr;
-    return arr.push(arrR);
+    return arr.concat(arrR);
 }
 
 //кароч все работает но метод пуш почему то неправильно работает
