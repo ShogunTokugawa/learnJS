@@ -1,11 +1,10 @@
 import {
-    z32
-} from "./lesons/obj/task2";
+    z33
+} from "./lesons/obj/task3";
 
-let obj = {
-    width: 200,
-    height: 300,
-    title: "My menu"
-};
-z32(obj);
-console.log(obj);
+z33.showStep();
+z33.up();
+z33.up();
+z33.up();
+z33.down();
+z33.showStep();
